@@ -270,7 +270,7 @@ int main(int argc, char* argv[]){
 
     WindowBuffer windowBuffer(100);
 
-    thread displayThread(displayBox, removeSomeBoxes(scaleBox(scale, scale, "../../doc/boxes.txt"), 1), ref(windowBuffer));
+    thread displayThread(displayBox, removeSomeBoxes(scaleBox(scale, scale, "../doc/boxes.txt"), 1), ref(windowBuffer));
     thread audioThread(playAudioAndUpdateTime, videoPath, audioPath);
 
     messageLoop();
