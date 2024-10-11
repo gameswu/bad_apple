@@ -1,0 +1,12 @@
+/build
+/prep/build
+/prep/frames
+
+/video/*.wav
+/doc/*.txt
+
+/3rdparty/ffmpeg/doc
+/3rdparty/ffmpeg/include
+/3rdparty/ffmpeg/lib
+/3rdparty/opencv/etc
+/3rdparty/opencv/java
